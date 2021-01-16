@@ -17,8 +17,12 @@ You can choose to install a part of the application on EKS in case you want to e
 #### Execute the following commands to create the Cloud9 environment
 
 #### Prerequisites
-* [Install and configure AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-* Ensure the default profile has administrator access to the AWS account
+* [Go to AWS CloudShell](https://console.aws.amazon.com/cloudshell/home?region=us-east-1#)
+* Ensure that you are on the N.Virginia Region (US-East-1)
+
+![IMG-CloudShell](/images/installation/CloudShell.PNG)
+
+Once the terminal loads, enter in the below commands
 
 ```
 curl -O https://raw.githubusercontent.com/aws-samples/one-observability-demo/main/cloud9-cfn.yaml
