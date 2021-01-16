@@ -1,6 +1,6 @@
 +++
 title = "Prepare environment"
-menuTitle = "2.1 Prepare environment"
+menuTitle = "2. Prepare environment"
 date = 2020-05-06T16:24:15-04:00
 weight = 10
 hidden = true

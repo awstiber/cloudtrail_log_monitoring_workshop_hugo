@@ -1,6 +1,6 @@
 +++
 title = "Using your own AWS account"
-menuTitle = "2.1 Using your own AWS account"
+menuTitle = "2.2 Using your own AWS account"
 date = 2020-08-30T15:01:17-04:00
 weight = 10
 chapter = true

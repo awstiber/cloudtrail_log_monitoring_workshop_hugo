@@ -1,6 +1,6 @@
 +++
 title = "Install Traffic Generator"
-menuTitle = "2.6 Install Traffic Generator"
+menuTitle = "2.7 Install Traffic Generator"
 
 date = 2020-05-06T16:24:15-04:00
 weight = 50

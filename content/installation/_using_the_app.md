@@ -1,6 +1,6 @@
 +++
 title = "Play around with the app"
-menuTitle = "2.5 Play around with the app"
+menuTitle = "2.6 Play around with the app"
 date = 2020-05-06T16:24:15-04:00
 weight = 40
 +++

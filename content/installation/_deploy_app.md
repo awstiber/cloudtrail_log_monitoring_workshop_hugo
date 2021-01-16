@@ -1,6 +1,6 @@
 +++
 title = "Deploy application"
-menuTitle = "2.3 Deploy application"
+menuTitle = "2.4 Deploy application"
 date = 2020-08-31T14:02:35-04:00
 weight = 30
 +++
