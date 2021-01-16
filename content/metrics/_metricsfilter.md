@@ -1,8 +1,8 @@
 +++
 title = "Metrics Filters"
-menuTitle = "10.2 Metrics Filters"
+menuTitle = "10.1 Metrics Filters"
 date = 2020-05-27T15:45:31-04:00
-weight = 2
+weight = 1
 +++
 
 After the CloudWatch Logs agent begins publishing log data to Amazon CloudWatch, you can begin searching and filtering the log data by creating one or more metric filters. Metric filters define the terms and patterns to look for in log data as it is sent to CloudWatch Logs. CloudWatch Logs uses these metric filters to turn log data into numerical CloudWatch metrics that you can graph or set an alarm on. You can use any type of CloudWatch statistic, including percentile statistics, when viewing these metrics or setting alarms.

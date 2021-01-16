@@ -1,8 +1,8 @@
 +++
 title = "View Metrics"
-menuTitle = "10.1 View Metrics"
+menuTitle = "10.2 View Metrics"
 date = 2020-05-27T13:33:16-04:00
-weight = 1
+weight = 2
 +++
 
 Go to [CloudWatch Metrics page](https://console.aws.amazon.com/cloudwatch/home?#metricsV2:) and it should take you to a screen as shown below:
