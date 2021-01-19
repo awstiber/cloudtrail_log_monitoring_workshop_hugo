@@ -19,31 +19,31 @@ Learn more about Anomaly Detection [here](https://docs.aws.amazon.com/AmazonClou
 
 Go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#metricsV2:graph=~())
 
-This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `ContainerInsights` or `ECS/ContainerInsights` namespace
+This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `CloudTrail namespace
 
-![Alarms](/images/alarms/a1.png?classes=shadow)
+![Alarms7](/images/alarms/alarms-7.PNG?classes=shadow)
 
 - Inside the Namespace, you will see all the dimensions under which the metrics are aggregated under
-- Select `ClusterName` dimension and select one of the CPU Utilization metrics. If you see `pod_memory_utilization`, select that which will show your screen similar to the one below
+- Select one of the Metric Filters which you previously created.
 
-![Alarms7](/images/alarms/a7.png?classes=shadow)
+![Alarms8](/images/alarms/alarms-8.PNG?classes=shadow)
 
 - Go to `Graphed Metrics` tab and select the `Anomaly Detection` button as shown below
 
-![Alarms7](/images/alarms/a9.png?classes=shadow)
+![Alarms9](/images/alarms/alarms-9.PNG?classes=shadow)
 
 {{%notice tip%}}
 Get a deep dive experience on Anomaly Detection in the [workshop module here](/anomalydetection.html).
 {{% /notice%}}
 
-- Your screen should look like the one below with the Anomaly Detection band immediately created 
-![Alarms7](/images/alarms/a8.png?classes=shadow)
+- Your screen should look like similar to the one below with the Anomaly Detection band immediately created 
+![Alarms10](/images/alarms/alarms-10.PNG?classes=shadow)
 
 - Now click on the create alarm button (🔔) which will take you to the screen similar to the one below
 
-![Alarms10](/images/alarms/a10.png?classes=shadow)
+![Alarms11](/images/alarms/alarms-11.PNG?classes=shadow)
 
-- Notice that the `Anomaly detection` option is selected. Under `Whenever pod_memory_utilization is...` you can select any of the 3 options presented there. Select `Outside of the band`
+- Notice that the `Anomaly detection` option is selected. Under `Whenever S3-Bucket-Access-Denied is...` you can select any of the 3 options presented there. Select `Outside of the band`
 
 - You can also select the standard deviation value under `Anomaly detection threshold` section. Change the value to see that the band around the metric timeline changing dynamically
 
@@ -62,7 +62,7 @@ The available options for actions include,
 
 Select `Create a new topic` to create a new SNS topic to send the notification to and provide your email address. 
 
-![Alarms4](/images/alarms/a4.png?classes=shadow)
+![Alarms4](/images/alarms/alarms-4.PNG?classes=shadow)
 
 - Click `Create topic` to create the SNS topic 
 - Click `Next`, give the alarm a name and click `Next` again to review the configuration
@@ -72,8 +72,8 @@ Select `Create a new topic` to create a new SNS topic to send the notification t
 
 Once you have created the alarm, you will notice that the alarm is now in `Insufficient data` state which indicates that there is not enough data to validate the alarm. Waiting for 5 minutes will change the alarm state to `OK` in green.
 
-![Alarms4](/images/alarms/a11.png?classes=shadow)
+![Alarms12](/images/alarms/alarms-12.PNG?classes=shadow)
 
 Click on the alarm to see the alarm details as shown below. Notice the alarm state now changed to 'OK' after evaluation was complete.
 
-![Alarms12](/images/alarms/a12.gif)
+![Alarms13](/images/alarms/alarms-13.PNG?classes=shadow)

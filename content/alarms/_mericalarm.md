@@ -13,18 +13,18 @@ A metric alarm watches a single CloudWatch metric or the result of a math expres
 - Click `Select metric`
 - This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `ContainerInsights` or `ECS/ContainerInsights` namespace
 
-![Alarms](/images/alarms/a1.png?classes=shadow)
+![Alarms-1](/images/alarms/alarms-1.PNG?classes=shadow)
 
 - Inside the Namespace, you will see all the dimensions under which the metrics are aggregated under
-- Select `ClusterName` dimension and select one of the CPU Utilization metrics. If you see `pod_cpu_utilization`, select that which will show your screen similar to the one below
+- Select `CloudTrail` dimension and select one of the metric filters you previously created
 
-![Alarms2](/images/alarms/a2.png?classes=shadow)
+![Alarms2](/images/alarms/alarms-2.PNG?classes=shadow)
 
 - Click `Select metric` which will take you to the screen as the one below
 
-![Alarms3](/images/alarms/a3.png?classes=shadow)
+![Alarms3](/images/alarms/alarms-3.PNG?classes=shadow)
 
-- Enter the threshold value (for example, 50 which means 50% CPU utlization because this metric is a *percent* type) that you want the metric data to be monitored.  Notice that `Static` option is selected by default, which means we will be setting a static value as the threshold to be monitored.
+- Enter the threshold value (for example, 300 which means 300 count since this is a Metric Filter) that you want the metric data to be monitored.  Notice that `Static` option is selected by default, which means we will be setting a static value as the threshold to be monitored.
 
 - Expand `Additional configuration` where you can indicate how many occurences of the breach qualifies for the alarm to be triggered. Set the values to 2 out of 5, which will make the alarm get triggered if there has been 2 breaches in 5 evaluation periods. Notice the message at the top of the graph describing the setting as `This alarm will trigger when the blue line goes above the red line for 2 datapoints within 25 minutes.`
 
@@ -41,7 +41,7 @@ The available options for actions include,
 
 Select `Create a new topic` to create a new SNS topic to send the notification to and provide your email address.
 
-![Alarms4](/images/alarms/a4.png?classes=shadow)
+![Alarms4](/images/alarms/alarms-4.PNG?classes=shadow)
 
 - Click `Create topic` to create the SNS topic 
 - Click `Next`, give the alarm a name and click `Next` again to review the configuration
@@ -51,9 +51,9 @@ Select `Create a new topic` to create a new SNS topic to send the notification t
 
 Once you have created the alarm, you will notice that the alarm is now in `Insufficient data` state which indicates that there is not enough data to validate the alarm. Waiting for 5 minutes will change the alarm state to `OK` in green.
 
-![Alarms5](/images/alarms/a5.png?classes=shadow)
+![Alarms5](/images/alarms/alarms-5.PNG?classes=shadow)
 
 Click on the alarm to see the alarm details as shown below. Notice the alarm state now changed to 'OK' after evaluation was complete.
 
-![Alarms6](/images/alarms/a6.gif)
+![Alarms6](/images/alarms/alarms-6.PNG?classes=shadow)
 
