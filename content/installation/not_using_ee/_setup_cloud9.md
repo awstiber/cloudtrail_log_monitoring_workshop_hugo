@@ -25,7 +25,7 @@ You can choose to install a part of the application on EKS in case you want to e
 Once the terminal loads, enter in the below commands
 
 ```
-curl -O https://raw.githubusercontent.com/aws-samples/one-observability-demo/main/cloud9-cfn.yaml
+curl -O https://raw.githubusercontent.com/awstiber/cloudwatch-logs-code/main/cloud9-cfn.yaml
 
 aws cloudformation create-stack --stack-name C9-Observability-Workshop --template-body file://cloud9-cfn.yaml --capabilities CAPABILITY_NAMED_IAM
 
