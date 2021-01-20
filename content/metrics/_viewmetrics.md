@@ -1,6 +1,6 @@
 +++
 title = "View Metrics"
-menuTitle = "10.2 View Metrics"
+menuTitle = "4.2 View Metrics"
 date = 2020-05-27T13:33:16-04:00
 weight = 2
 +++

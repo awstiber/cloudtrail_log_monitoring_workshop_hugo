@@ -1,6 +1,6 @@
 +++
 title = "Setup Anomaly Detection"
-menuTitle = "12.1 Setup Anomaly Detection"
+menuTitle = "6.1 Setup Anomaly Detection"
 date = 2020-05-28T23:15:11-04:00
 weight = 1
 +++

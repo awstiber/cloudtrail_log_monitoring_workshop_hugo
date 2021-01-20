@@ -1,9 +1,9 @@
 +++
 title = "Logs Insights"
 date = 2020-05-19T10:18:56-04:00
-weight = 80
+weight = 30
 chapter = true
-pre = "<b>8. </b>"
+pre = "<b>3. </b>"
 +++
 
 CloudWatch Logs Insights enables you to interactively search and analyze your log data in Amazon CloudWatch Logs. You can perform queries to help you more efficiently and effectively respond to operational issues. If an issue occurs, you can use CloudWatch Logs Insights to identify potential causes and validate deployed fixes.

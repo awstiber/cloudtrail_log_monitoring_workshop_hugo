@@ -1,6 +1,6 @@
 +++
 title = "Alarms on Anomaly Detection band"
-menuTitle = "14.2 Alarms on Anomaly Detection band"
+menuTitle = "7.2 Alarms on Anomaly Detection band"
 date = 2020-06-07T10:55:04-04:00
 weight = 2
 +++

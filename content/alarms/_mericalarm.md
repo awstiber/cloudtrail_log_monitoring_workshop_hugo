@@ -1,6 +1,6 @@
 +++
 title = "Metric Alarms"
-menuTitle = "14.1 Metric Alarms"
+menuTitle = "7.1 Metric Alarms"
 date = 2020-06-07T09:42:26-04:00
 weight = 1
 +++

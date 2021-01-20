@@ -1,9 +1,9 @@
 +++
 title = "Dashboards"
 date = 2020-05-19T10:19:31-04:00
-weight = 110
+weight = 70
 chapter = true
-pre = "<b>11. </b>"
+pre = "<b>7. </b>"
 +++
 
 Amazon CloudWatch dashboards are customizable home pages in the CloudWatch console that you can use to monitor your resources in a single view, even those resources that are spread across different Regions. You can use CloudWatch dashboards to create customized views of the metrics and alarms for your AWS resources.

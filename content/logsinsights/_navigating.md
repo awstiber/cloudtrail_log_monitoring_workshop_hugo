@@ -1,6 +1,6 @@
 +++
 title = "Navigating the interface"
-menuTitle = "8.1 Navigating the interface"
+menuTitle = "3.1 Navigating the interface"
 date = 2020-06-04T15:07:47-04:00
 weight = 1
 +++

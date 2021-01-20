@@ -1,6 +1,6 @@
 +++
 title = "Querying Logs"
-menuTitle = "8.2 Querying Logs"
+menuTitle = "3.2 Querying Logs"
 date = 2020-06-03T17:09:15-04:00
 weight = 2
 +++

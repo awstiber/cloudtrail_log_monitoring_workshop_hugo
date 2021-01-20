@@ -1,9 +1,9 @@
 +++
 title = "Metrics"
 date = 2020-05-19T10:19:05-04:00
-weight = 100
+weight = 40
 chapter = true
-pre = "<b>10. </b>"
+pre = "<b>4. </b>"
 +++
 
 Metrics are data about the performance of your systems. By default, several services provide free metrics for resources (such as Amazon EC2 instances, Amazon EBS volumes, and Amazon RDS DB instances). You can also enable detailed monitoring for some resources, such as your Amazon EC2 instances, or publish your own application metrics. Amazon CloudWatch can load all the metrics in your account (both AWS resource metrics and application metrics that you provide) for search, graphing, and alarms.

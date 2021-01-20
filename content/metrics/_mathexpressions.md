@@ -1,6 +1,6 @@
 +++
 title = "Math expressions"
-menuTitle = "10.3 Math expressions"
+menuTitle = "4.3 Math expressions"
 date = 2020-05-27T15:45:31-04:00
 weight = 3
 +++

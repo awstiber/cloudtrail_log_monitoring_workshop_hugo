@@ -1,6 +1,6 @@
 +++
 title = "Publish custom Metrics"
-menuTitle = "10.5 Publish custom Metrics"
+menuTitle = "4.5 Publish custom Metrics"
 date = 2020-05-28T21:55:40-04:00
 weight = 5
 +++
