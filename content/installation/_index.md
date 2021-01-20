@@ -1,5 +1,5 @@
 +++
-title = "One Observability Demo"
+title = "CloudTrail Log Monitoring Demo"
 menuTitle = "Prepare and Install"
 date = 2020-05-11T15:41:05-04:00
 weight = 20

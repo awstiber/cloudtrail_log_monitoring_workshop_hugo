@@ -8,7 +8,7 @@ pre = "<b>1. </b>"
 
 | <span style="color: #FF9900;font-weight:bold;font-size:20px">NOTE TO AWS EMPLOYEES</span> |
 | :------------- | 
-|  We have created a custom template which you need to use to provision accounts for workshops. [Reach out](https://amazon.enterprise.slack.com/user/@W017PE1V36G) to get access to the template. Every time you conduct a workshop or an event with a customer, please ping [ijaganna@](https://amazon.enterprise.slack.com/user/@W017PE1V36G) with the details (Customer Name, Date, Location and Number of participants) so we can track usage.| 
+|  We have created a custom template which you need to use to provision accounts for workshops. [Reach out](https://amazon.enterprise.slack.com/user/@W01ABLLLZ28) to get access to the template. 
 
 
 {{%notice warning%}}
