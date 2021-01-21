@@ -32,4 +32,4 @@ Go to [CloudTrail](https://console.aws.amazon.com/cloudtrail/home?region=us-east
 Go to the [S3 Console](https://s3.console.aws.amazon.com/s3/home?region=us-east-1) and empty then delete the below buckets
 - services-s3bucketpetadoptionc....
 - The bucket you created for the subscription filter
-- The CloudTrail logs bucket
+- The CloudTrail logs bucket-
