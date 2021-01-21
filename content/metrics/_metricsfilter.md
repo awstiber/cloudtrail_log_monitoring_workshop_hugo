@@ -41,3 +41,9 @@ To create a Metric Filter, follow the below steps
 13. Click `Create metric filter`
 
 ![Metrics-Filter-4](/images/metrics/Metrics-Filter-4.PNG?classes=shadow)
+
+Finally, please follow the above steps to create a second metric. You can create your own logic, or use the below one.
+
+```
+{ $.errorCode = "AccessDenied" }
+```

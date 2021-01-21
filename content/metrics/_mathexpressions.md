@@ -34,7 +34,7 @@ You can also achieve the same result without using the `METRICS()` function as s
 SUM([m1,m2,m3,m4])
 ```
 
-![MathExpressions-4](/images/metrics/Math-Expressions-4.PNG?classes=shadow)
+![MathExpressions-4](/images/metrics/Math-Expressions-4.png?classes=shadow)
 
 Notice that you can also create CloudWatch Alarms based on Metric math expressions.
 
@@ -42,7 +42,7 @@ There are numerous such expressions available for you to operate on Metric data.
 
 To see all expressions simply click on `Metric expression` and check out the various functions available.
 
-![MathExpressions-5](/images/metrics/Math-Expressions-5.PNG?classes=shadow)
+![MathExpressions-5](/images/metrics/Math-Expressions-5.png?classes=shadow)
 
 
 

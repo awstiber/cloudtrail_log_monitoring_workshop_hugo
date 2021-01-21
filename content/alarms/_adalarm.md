@@ -19,7 +19,7 @@ Learn more about Anomaly Detection [here](https://docs.aws.amazon.com/AmazonClou
 
 Go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#metricsV2:graph=~())
 
-This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `CloudTrail namespace
+This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `CloudTrail` namespace
 
 ![Alarms7](/images/alarms/alarms-7.PNG?classes=shadow)
 
@@ -31,10 +31,6 @@ This will take you to the Metrics home page, where you will see all the Namespac
 - Go to `Graphed Metrics` tab and select the `Anomaly Detection` button as shown below
 
 ![Alarms9](/images/alarms/alarms-9.PNG?classes=shadow)
-
-{{%notice tip%}}
-Get a deep dive experience on Anomaly Detection in the [workshop module here](/anomalydetection.html).
-{{% /notice%}}
 
 - Your screen should look like similar to the one below with the Anomaly Detection band immediately created 
 ![Alarms10](/images/alarms/alarms-10.PNG?classes=shadow)
@@ -55,7 +51,7 @@ Get a deep dive experience on Anomaly Detection in the [workshop module here](/a
     - OK
     - Insufficient data
 
-The available options for actions include,
+- The available options for actions include,
     - Send a notification to an SNS topic
     - Take an Auto scaling action
     - EC2 action if the metric is from an EC2 instance

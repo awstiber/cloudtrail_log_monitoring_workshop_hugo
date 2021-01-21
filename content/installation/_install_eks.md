@@ -3,6 +3,7 @@ title = "Install Petsite on EKS"
 menuTitle = "2.5 Install Petsite on EKS"
 date = 2020-09-02T11:58:20-04:00
 weight = 35
+hidden=true
 +++
 
 {{% notice info%}}

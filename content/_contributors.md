@@ -5,7 +5,7 @@ weight = 5
 hidden = true
 +++
 
-## Workshop contributors
+## The Original Dream Team Observability Workshop contributors
 - [Imaya Kumar Jagannathan](https://www.linkedin.com/in/imaya/)
 - [Dmitry Kolomiets](https://www.linkedin.com/in/dmitrykolomiets/)
 - [Florian Chazal](https://www.linkedin.com/in/florian-chazal-a4846061/)
@@ -19,5 +19,8 @@ hidden = true
 - [Seyong Kang](https://www.linkedin.com/in/seyong-kang-38447b129/)
 - [Akshat Srivastava](https://www.linkedin.com/in/akshatsrivastava/)
 
-We're still looking for more help, reach out (AWS employees only) directly at [ijaganna@](https://amazon.enterprise.slack.com/user/@W017PE1V36G) to contribute.
+## CloudTrail Logs contributors
+- [Tiberiu Oprisiu](https://www.linkedin.com/in/toprisiu/)
+
+We're still looking for more help, reach out (AWS employees only) directly at [awstiber@](https://amazon.enterprise.slack.com/user/@W01ABLLLZ28) to contribute.
 

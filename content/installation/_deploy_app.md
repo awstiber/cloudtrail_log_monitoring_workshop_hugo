@@ -27,7 +27,7 @@ rm -vf ${HOME}/.aws/credentials
 This step will install all the necessary tools, utilities required and also will download the source code required for the workshop.
 
 ```
-curl -sSL https://raw.githubusercontent.com/aws-samples/one-observability-demo/main/PetAdoptions/envsetup.sh | bash -s stable
+curl -sSL https://raw.githubusercontent.com/awstiber/cloudwatch-logs-code/main/PetAdoptions/envsetup.sh | bash -s stable
 ```
 
 ### We should configure our AWS CLI with our current AWS Region as default:
@@ -67,39 +67,6 @@ Install all npm packages
 npm install
 ```
 
-### Edit config parameters
-{{%notice info%}}
-This is an optional step. Only change the values in the config file if needed. See comments on each line and make a call.
-{{% /notice%}}
-
-Open the `/pet_stack/cdk.json` file from the explorer tab on the left side. 
-
-See instructions in the below on each line and make sure you follow them correctly.
-
-{{%notice info%}}
-If you want to deploy an EKS cluster, set the value of `petsite_on_eks` setting to `true`
-{{% /notice%}}
-
-```bash
-{
-  "app": "npx ts-node app/pet_stack.ts",
-  "context": {
-    "vpc_cidr": "11.0.0.0/16",# Change this value if this CIDR range conflicts with your existing environment
-        "snstopic_email": "someone@example.com", # Change this value to an email address you can access if you want to receive email notifications. There will be 1000s of emails with increased traffic. So be warned. You can also leave the default value as it is to avoid getting emails.
-    "rdsusername":"petadmin",
-    "petsite_on_eks":"false"# Changing this to "true" will provision an EKS cluster and deploy the front-end app on it. Leave it to "false" to deploy all services on ECS Fargate clusters.
-  }
-}
-```
-
-### Reboot the EC2 instance for changes to take effect <span style="color: blue;">(skip this step if you're not deploying petsite on EKS)</span>	
-
-Execute the following command on the Cloud9 terminal and wait a few seconds for the Cloud9 instance to reboot
-
-```
-sudo reboot
-```
-
 ### Bootstrap CDK 
 
 {{%notice tip%}}
@@ -112,9 +79,6 @@ cdk bootstrap
 
 ### Deploy the stack
 
-{{%notice warning%}}
-If you chose EKS, the deployment fails for the first time due to this [bug](https://github.com/aws/aws-cdk/issues/9027), but just re-execute the command again and it will succeed.
-{{% /notice%}}
 
 ```
 cdk deploy Services

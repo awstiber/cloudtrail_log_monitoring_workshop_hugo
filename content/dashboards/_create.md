@@ -12,7 +12,7 @@ Go to [CloudWatch Dashboard](https://console.aws.amazon.com/cloudwatch/home?#das
 
 Select `Line` graph and click `Next`. This will take you to a screen where you can create a widget based off of `Metrics` or `Logs`. For now, we will use Metrics. Once you click `Configure`, it will take you a screen showing all Namespaces under which Metrics are being collected. If you see `CloudTrail` namespace.
 
-For the sake of simplicity, I'm going to assume you chose `ContainerInsights` for the rest of the instructions. If you did not, just make small adjustments to the instructions yourself as it is pretty easy to follow either way.
+For the sake of simplicity, I'm going to assume you chose `CloudTrail` for the rest of the instructions. If you did not, just make small adjustments to the instructions yourself as it is pretty easy to follow either way.
 
 ![dashboard2](/images/dashboard/dashboard-2.PNG?classes=shadow)
 

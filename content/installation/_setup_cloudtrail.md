@@ -25,10 +25,10 @@ Now follow the below steps
 
 ![IMG-CloudTrail-2](/images/installation/CloudTrail-Step-2.PNG)
 
-Ensure that `Management Events` is ticked and click next
+7. Ensure that `Management Events` is ticked and click next
 
 ![IMG-CloudTrail-3](/images/installation/CloudTrail-Step-3.PNG)
 
-Finally click on `Create trail` button
+8. Finally click on `Create trail` button
 
 ![IMG-CloudTrail-4](/images/installation/CloudTrail-Step-4.PNG)

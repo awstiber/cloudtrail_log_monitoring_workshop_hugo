@@ -15,7 +15,7 @@ You can publish your own custom metrics in a variety of ways
 The example below uses the AWS CLI/CloudShell to publish a metric called `throttlecount` under the dimension `ServerName,ServerType` to the `observabilityworkshop` namespace.
 
 ```
-aws cloudwatch put-metric-data --metric-name throttlecount --namespace observabilityworkshop --unit Count --value 156 --dimensions ServerName=DemoServer,ServerType=A1
+aws cloudwatch put-metric-data --metric-name throttlecount --namespace CloudTrail --unit Count --value 156 --dimensions ServerName=DemoServer,ServerType=A1
 ```
 Open a terminal window and paste the above command and press enter. This should publish the metric to CloudWatch Metrics.
 

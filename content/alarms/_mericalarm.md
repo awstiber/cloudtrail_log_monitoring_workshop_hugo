@@ -11,7 +11,7 @@ A metric alarm watches a single CloudWatch metric or the result of a math expres
 
 - Go to [CloudWatch Alarms](https://console.aws.amazon.com/cloudwatch/home?#alarmsV2:) and click on `Create alarm`
 - Click `Select metric`
-- This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `ContainerInsights` or `ECS/ContainerInsights` namespace
+- This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select the `CloudTrail` namespace
 
 ![Alarms-1](/images/alarms/alarms-1.PNG?classes=shadow)
 

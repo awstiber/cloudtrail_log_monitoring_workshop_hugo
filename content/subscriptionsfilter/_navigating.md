@@ -79,14 +79,14 @@ def lambda_handler(event, context):
         if "errorCode" not in messageJson:
             if messageJson["eventName"] == "CreateBucket":
                 response = client.publish(
-                    TopicArn='arn:aws:sns:us-east-1:<Enter Account ID>:S3-Creation',
+                    TopicArn='arn:aws:sns:us-east-1:<----Enter Account ID---->:S3-Creation',
                     Message=message,
                     Subject='S3 Bucket Created',
                     MessageStructure='string'
                 )
             elif messageJson["eventName"] == "DeleteBucket":
                 response = client.publish(
-                    TopicArn='arn:aws:sns:us-east-1:<Enter Account ID>:S3-Deletion',
+                    TopicArn='arn:aws:sns:us-east-1:<----Enter Account ID---->:S3-Deletion',
                     Message=message,
                     Subject='S3 Bucket Deleted',
                     MessageStructure='string'
@@ -94,8 +94,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "hello worlds",
-            # "location": ip.text.replace("\n", "")
+            "message": "hello worlds"
         }),
     }
 ```
@@ -131,7 +130,7 @@ Resources:
         CWLog:
           Type: CloudWatchLogs # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
-            LogGroupName: '<Enter Log Grop Name>'
+            LogGroupName: '<----Enter Log Grop Name---->'
             FilterPattern: '{ $.eventName= "CreateBucket" || $.eventName= "DeleteBucket" }'
   S3CreateBucketSNS:  
     Type: AWS::SNS::Topic
