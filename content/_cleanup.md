@@ -18,3 +18,11 @@ From `/cdk/pet_stack/` directory execute the following commands within the Cloud
 chmod +x ./resources/destroy_stack.sh
 ./resources/destroy_stack.sh
 ```
+
+#### 3. Delete CloudFormation
+
+Go to [CloudFormation](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true&hideStacks=false) and delete all of the stacks that show up in there. 
+
+#### 4. Delete CloudTrail
+
+Go to [CloudTrail](https://console.aws.amazon.com/cloudtrail/home?region=us-east-1) and delete the trail that you created at the begining of this workshop.
