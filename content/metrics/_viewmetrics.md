@@ -9,7 +9,7 @@ Go to [CloudWatch Metrics page](https://console.aws.amazon.com/cloudwatch/home?#
 
 ![Metrics home](/images/metrics/view-metrics-1.PNG?classes=shadow)
 
-Now let's check out the metrics under the customer Namespace called [ContainerInsights](https://console.aws.amazon.com/cloudwatch/home?#metricsV2:graph=~();namespace=~'ContainerInsights). This Namespace contains all the metrics collected by [CloudWatch Container Insights](/en/containerinsights.html) from the EKS clusters that have Container Insights enabled.
+Now let's check out the metrics under the customer Namespace called [ContainerInsights](https://console.aws.amazon.com/cloudwatch/home?#metricsV2:graph=~();namespace=~'ContainerInsights). This Namespace contains all the metrics collected by CloudWatch Container Insights from the ECS clusters that have Container Insights enabled.
 
 The following screen shows the different dimensions by which the metrics are being collected.
 ![Metrics2](/images/metrics/view-metrics-2.PNG?classes=shadow)

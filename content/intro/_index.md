@@ -12,7 +12,7 @@ pre = "<b>1. </b>"
 
 
 {{%notice warning%}}
-If you're currently not sitting in an AWS organized workshop event, this section doesn't apply to you. Skip this page and [go here](/en/installation/not_using_ee.html).
+If you're currently not sitting in an AWS organized workshop event, this section doesn't apply to you. Skip this page and [go here](/installation/not_using_ee.html).
 {{% /notice%}}
 
 The AWS Event Engine was created to help AWS field teams run Workshops, GameDays, Bootcamps, Immersion Days, and other events that require hands-on access to AWS accounts.

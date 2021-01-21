@@ -7,7 +7,7 @@ hidden=true
 +++
 
 {{% notice info%}}
-This section only applies if you chose to install the petsite front end on EKS in the previous step. If you did not do that, skip this page and [go here](/en/installation/_using_the_app.html)
+This section only applies if you chose to install the petsite front end on EKS in the previous step. If you did not do that, skip this page and [go here](/installation/_using_the_app.html)
 {{% /notice%}}
 
 ### Update kubeconfig

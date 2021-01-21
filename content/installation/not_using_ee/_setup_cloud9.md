@@ -6,7 +6,7 @@ weight = 20
 pre = "<b>▶︎ </b>"
 +++
 
-You can use a new Cloud9 instance to deploy the application. If you do not wish to you use Cloud9, skip this page and [go to the next step](/en/installation/_deploy_app.html)
+You can use a new Cloud9 instance to deploy the application. If you do not wish to you use Cloud9, skip this page and [go to the next step](/installation/_deploy_app.html)
 
 
 {{%notice warning%}}

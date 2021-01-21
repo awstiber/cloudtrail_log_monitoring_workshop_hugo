@@ -10,7 +10,7 @@ You can publish your own custom metrics in a variety of ways
 - [AWS CLI](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html)
 - [AWS CloudShell](https://console.aws.amazon.com/cloudshell/home?region=us-east-1)
 - [put-metric-data](https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-data.html) API call
-- [Embedded Metric Format](/en/emf.html)
+- [Embedded Metric Format](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format.html)
 
 The example below uses the AWS CLI/CloudShell to publish a metric called `throttlecount` under the dimension `ServerName,ServerType` to the `observabilityworkshop` namespace.
 

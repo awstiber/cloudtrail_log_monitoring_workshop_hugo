@@ -31,7 +31,7 @@ Go ahead and play around with the workshop and please feel free to provide your 
 - #### What is the required learning level?
     - Level 200 and up. Although you don't need to be an expert to take this workshop, it will help if you had some basic understanding about monitoring concepts such as logs, metrics, alarms, dashboard, subscriptions, etc.
 - #### Will it cost me anything?
-    - Yes. Going through this module will incur some costs. Make sure you [cleanup the resources](/en/_cleanup.html) at the end to avoid unnecessary charges.
+    - Yes. Going through this module will incur some costs. Make sure you [cleanup the resources](/_cleanup.html) at the end to avoid unnecessary charges.
 
 
 This workshop is based off of the [One Observability Workshop](https://observability.workshop.aws/en/), so all credit should go to that team for their amazing work! 

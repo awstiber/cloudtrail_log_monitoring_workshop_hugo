@@ -7,7 +7,7 @@ hidden = true
 +++
 
 {{%notice warning%}}
-You only need to use the instructions on this page if you want to deploy the front end site on EKS also. If you don't have any interest in EKS, skip this page and [go here](/en/installation/_using_the_app.html)
+You only need to use the instructions on this page if you want to deploy the front end site on EKS also. If you don't have any interest in EKS, skip this page and [go here](/installation/_using_the_app.html)
 {{% /notice%}}
 
 {{% notice info%}}

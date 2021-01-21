@@ -7,7 +7,7 @@ chapter = true
 +++
 
 {{%notice info%}}
-If you are sitting in an AWS organized event, your instructor might have given you access to an AWS account exclusively provisioned for this workshop through Event Engine. [Go here](/en/installation/using_ee.html) for instructions if that is the case.
+If you are sitting in an AWS organized event, your instructor might have given you access to an AWS account exclusively provisioned for this workshop through Event Engine. [Go here](/installation/using_ee.html) for instructions if that is the case.
 {{% /notice%}}
 
 {{% notice warning%}}
@@ -16,4 +16,4 @@ AWS employees, Isengard doesn't play nice with some of the workshop steps. So pl
 
 This section will guide you through the steps to provision a Cloud9 instance which you will use to deploy the application.
 
-[Go here to setup Cloud9](/en/installation/not_using_ee/_setup_cloud9.html)
+[Go here to setup Cloud9](/installation/not_using_ee/_setup_cloud9.html)
