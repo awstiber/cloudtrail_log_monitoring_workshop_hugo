@@ -26,3 +26,10 @@ Go to [CloudFormation](https://console.aws.amazon.com/cloudformation/home?region
 #### 4. Delete CloudTrail
 
 Go to [CloudTrail](https://console.aws.amazon.com/cloudtrail/home?region=us-east-1) and delete the trail that you created at the begining of this workshop.
+
+#### 5. Remove S3 Buckets
+
+Go to the [S3 Console](https://s3.console.aws.amazon.com/s3/home?region=us-east-1) and empty then delete the below buckets
+- services-s3bucketpetadoptionc....
+- The bucket you created for the subscription filter
+- The CloudTrail logs bucket
