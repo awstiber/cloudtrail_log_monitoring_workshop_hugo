@@ -48,7 +48,7 @@ To create a subscription filter, follow the below steps.
 
 ![Subscription-Filter-5](/images/subscription/Subscription-Filter-5.PNG?classes=shadow)
 
-17. Go to the `app.py` file and copy and paste the below code into it replacing everything that is already present. **Make sure to enter your Account ID in the code below.** Save the file afterwards.
+17. Click on the folder icon on the top left, then open the `hello_world` folder. Open the `app.py` file and copy and paste the below code into it replacing everything that is already present. **Make sure to enter your Account ID in the code below.** Save the file afterwards.
 
 ```python
 import json
@@ -160,25 +160,26 @@ Outputs:
 ```
 
 19. Click on the `aws` logo on the left hand side
-20. Click the `scroll` icon to the right of the aws logo
-21. Click on the `Deploy SAM Application` menu item
+20. If you do not see the US East dropdown, then click on the `scroll` icon and select `Connect to AWS`. When prompted, select the `Default Profile`
+21. Click the `scroll` icon to the right of the aws logo
+22. Click on the `Deploy SAM Application` menu item
 
 ![Subscription-Filter-6](/images/subscription/Subscription-Filter-6.PNG?classes=shadow)
 
-22. Select the `SubscriptionFilter` template
+23. Select the `SubscriptionFilter` template
 
 ![Subscription-Filter-7](/images/subscription/Subscription-Filter-7.PNG?classes=shadow)
 
-23. Select `US East (N. Virginia)`
+24. Select `US East (N. Virginia)`
 
 ![Subscription-Filter-8](/images/subscription/Subscription-Filter-8.PNG?classes=shadow)
 
-24. Select the S3 Bucket that you created in steps 14-16
+25. Select the S3 Bucket that you created in steps 14-16
 
 ![Subscription-Filter-9](/images/subscription/Subscription-Filter-9.PNG?classes=shadow)
 
-25. Type in a stack name and press the enter key
+26. Type in a stack name and press the enter key
 
 ![Subscription-Filter-10](/images/subscription/Subscription-Filter-10.PNG?classes=shadow)
 
-26. You should automatically receive an email asking you to confirm your subscription for both SNS topics. Please go ahead and confirm them. 
+27. You should automatically receive 2 emails asking you to confirm your subscriptions for both SNS topics. Please go ahead and confirm them. 

@@ -1,6 +1,6 @@
 +++
 title = "Metric Alarms"
-menuTitle = "7.1 Metric Alarms"
+menuTitle = "6.1 Metric Alarms"
 date = 2020-06-07T09:42:26-04:00
 weight = 1
 +++
@@ -16,7 +16,7 @@ A metric alarm watches a single CloudWatch metric or the result of a math expres
 ![Alarms-1](/images/alarms/alarms-1.PNG?classes=shadow)
 
 - Inside the Namespace, you will see all the dimensions under which the metrics are aggregated under
-- Select `CloudTrail` dimension and select one of the metric filters you previously created
+- Select `CloudTrail` dimension and select one of the metric filters you previously created within `Metrics with no dimensions`
 
 ![Alarms2](/images/alarms/alarms-2.PNG?classes=shadow)
 
@@ -34,7 +34,7 @@ A metric alarm watches a single CloudWatch metric or the result of a math expres
     - OK
     - Insufficient data
 
-The available options for actions include,
+- The available options for actions include,
     - Send a notification to an SNS topic
     - Take an Auto scaling action
     - EC2 action if the metric is from an EC2 instance

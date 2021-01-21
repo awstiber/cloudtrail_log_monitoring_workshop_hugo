@@ -25,7 +25,7 @@ Now follow the below steps
 
 ![IMG-CloudTrail-2](/images/installation/CloudTrail-Step-2.PNG)
 
-7. Ensure that `Management Events` is ticked and click next
+7. Ensure that `Management Events` is ticked and click `Next`
 
 ![IMG-CloudTrail-3](/images/installation/CloudTrail-Step-3.PNG)
 

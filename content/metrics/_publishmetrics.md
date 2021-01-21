@@ -19,7 +19,7 @@ aws cloudwatch put-metric-data --metric-name throttlecount --namespace CloudTrai
 ```
 Open a terminal window and paste the above command and press enter. This should publish the metric to CloudWatch Metrics.
 
-Once completed, go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home?#metricsV2:graph=~();query=~'*7bobservabilityworkshop*2cServerName*2cServerType*7d) which will directly take you to the metric you just published.
+Once completed, go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#metricsV2:graph=~();query=~'*7bCloudTrail*2cServerName*2cServerType*7d) which will directly take you to the metric you just published.
 
 ![Metrics13](/images/metrics/metrics13.png?classes=shadow)
 

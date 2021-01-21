@@ -1,6 +1,6 @@
 +++
 title = "Alarms on Anomaly Detection band"
-menuTitle = "7.2 Alarms on Anomaly Detection band"
+menuTitle = "6.2 Alarms on Anomaly Detection band"
 date = 2020-06-07T10:55:04-04:00
 weight = 2
 +++
@@ -17,13 +17,12 @@ Learn more about Anomaly Detection [here](https://docs.aws.amazon.com/AmazonClou
 
 ### Create an Alarm based on Anomaly Detection band
 
-Go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#metricsV2:graph=~())
-
-This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `CloudTrail` namespace
+Go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#metricsV2:graph=~()). This will take you to the Metrics home page, where you will see all the Namespaces available in the account. Select `CloudTrail` namespace
 
 ![Alarms7](/images/alarms/alarms-7.PNG?classes=shadow)
 
 - Inside the Namespace, you will see all the dimensions under which the metrics are aggregated under
+- Click on `Metrics with no dimensions`
 - Select one of the Metric Filters which you previously created.
 
 ![Alarms8](/images/alarms/alarms-8.PNG?classes=shadow)

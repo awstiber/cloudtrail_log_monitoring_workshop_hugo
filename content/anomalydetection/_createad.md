@@ -1,6 +1,6 @@
 +++
 title = "Setup Anomaly Detection"
-menuTitle = "6.1 Setup Anomaly Detection"
+menuTitle = "5.1 Setup Anomaly Detection"
 date = 2020-05-28T23:15:11-04:00
 weight = 1
 +++
@@ -20,7 +20,7 @@ Now go to the `Graphed metrics` tab and click on the Anomaly Detection icon as s
 
 ![AD2](/images/ad/AD-2.PNG?classes=shadow)
 
-Anomaly Detection (AD) gets enabled immediately. A model is created based on the metric data points for a 2 week period. AD can also be enabled even if there is no data available for 2 week period.
+Anomaly Detection (AD) gets enabled immediately. A model is created based on the metric data points for a 2 week period. AD can also be enabled even if there is no data available for 2 week period. If you see an exclamation point next to the `(expected)` chart legend, that means the model does not have enough data points to create a band. You can come back to this at a later time to see the band. You can also use one of the Metrics within thr `ECS/ContainerInsights` namespace as that should have more data available. 
 
 ![AD3](/images/ad/AD-3.PNG?classes=shadow)
 

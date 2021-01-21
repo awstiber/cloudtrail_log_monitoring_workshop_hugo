@@ -1,9 +1,9 @@
 +++
 title = "Alarms"
 date = 2020-05-19T10:19:12-04:00
-weight = 50
+weight = 60
 chapter = true
-pre = "<b>5. </b>"
+pre = "<b>6. </b>"
 +++
 
 You can add alarms to CloudWatch dashboards and monitor them visually. When an alarm is on a dashboard, it turns red when it is in the ALARM state, making it easier for you to monitor its status proactively. 

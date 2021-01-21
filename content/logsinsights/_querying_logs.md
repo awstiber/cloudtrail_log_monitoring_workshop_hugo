@@ -1,8 +1,8 @@
 +++
 title = "Querying Logs"
-menuTitle = "3.2 Querying Logs"
+menuTitle = "3.1 Querying Logs"
 date = 2020-06-03T17:09:15-04:00
-weight = 2
+weight = 1
 +++
 
 ### Using Log Insights Queries
@@ -29,17 +29,24 @@ Learn more about Logs Insights syntax and queries [here](https://docs.aws.amazon
 
 Now paste this query into the log field. The following query applies a filter on the messages and fetches only the records that contain the eventName `AssumeRole` in the log event and displays the result ordered by the timestamp field in descending order
 
-```plaintext
+```
 fields @timestamp, @message
 | sort @timestamp desc
 | limit 20
 | filter eventName = 'AssumeRole'
 ```
+
 ![IMG004](/images/logsinsights/Cloud-Watch-Insights-Assume-Role-Query.PNG?classes=border)
 
 #### List with aggregation, sort, and timeseries
 
 Now paste this query into the log field. The following shows a result that contains the number of messages captured by 5 minute interval
+
+```
+fields @timestamp, @message
+| filter eventName = 'AssumeRole'
+| stat count(*) by bin(5m)
+```
 
 ![IMG005](/images/logsinsights/Cloud-Watch-Insights-Assume-Role-Query-Stat.PNG?classes=border)
 

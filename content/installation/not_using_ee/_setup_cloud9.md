@@ -31,3 +31,4 @@ aws cloudformation create-stack --stack-name C9-CloudTrail-Log-Workshop --templa
 
 ```
 
+Now please wait for the CloudFormation template to finish. You can view it by clicking [here](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true&hideStacks=false)

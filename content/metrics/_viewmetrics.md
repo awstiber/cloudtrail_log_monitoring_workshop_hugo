@@ -14,7 +14,7 @@ Now let's check out the metrics under the customer Namespace called [ContainerIn
 The following screen shows the different dimensions by which the metrics are being collected.
 ![Metrics2](/images/metrics/view-metrics-2.PNG?classes=shadow)
 
-Select `ClusterName, ServiceName` dimension so we can take a look at the metrics there. If you had more than one EKS cluster in the account you will see all the cluster names listed there. To apply a filter and see only the `petsite` cluster, just click on the clustername on any of the rows and select `Add to search` which will apply a filter called `ClusterName="Services..."`. 
+Select `ClusterName, ServiceName` dimension so we can take a look at the metrics there. To apply a filter, just click on the clustername on any of the rows and select `Add to search` which will apply a filter called `ClusterName="Services..."`. 
 
 ![Metrics3](/images/metrics/view-metrics-3.PNG?classes=shadow)
 

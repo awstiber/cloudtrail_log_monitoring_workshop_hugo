@@ -30,10 +30,10 @@ To create a Metric Filter, follow the below steps
 
 6. If it doesn't error out, please click next.
 7. Enter in Filter Name
-8. You can also enter in a Metric Namespace. [Click here](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Namespace) to learn more.
+8. You can also enter in a Metric Namespace. [Click here](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Namespace) to learn more. For now, please use `CloudTrail` as the NameSpace
 9. Enter in the Metric Name
-10. For Metric value, please enter in the amount you would like the Metric to be increased by with each occurance within the logs.
-11. For default value, please enter in the amount you would like the Metric to be increase when there is **no** match
+10. For Metric value, please enter in the amount you would like the Metric to be increased by with each occurance within the logs. For this example, please enter in `1`
+11. For default value, please enter in the amount you would like the Metric to be increase when there is **no** match. For this example, please enter in `0`
 12. Click `Next` 
 
 ![Metrics-Filter-3](/images/metrics/Metrics-Filter-3.PNG?classes=shadow)
@@ -42,7 +42,7 @@ To create a Metric Filter, follow the below steps
 
 ![Metrics-Filter-4](/images/metrics/Metrics-Filter-4.PNG?classes=shadow)
 
-Finally, please follow the above steps to create a second metric. You can create your own logic, or use the below one.
+#### Finally, please follow the above steps to create a second metric. You can create your own logic, or use the below one.
 
 ```
 { $.errorCode = "AccessDenied" }

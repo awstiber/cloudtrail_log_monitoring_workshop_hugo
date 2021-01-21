@@ -6,11 +6,11 @@ weight = 1
 +++
 
 ### Create a dashboard using AWS console 
-Go to [CloudWatch Dashboard](https://console.aws.amazon.com/cloudwatch/home?#dashboards:) and click on `Create dashboard`, name it `cloudtrail-dashboard` and click `Create dashboard`. You will see a screen such as below where you can choose the type of widget you want. 
+Go to [CloudWatch Dashboard](https://console.aws.amazon.com/cloudwatch/home?#dashboards:) and click on `Create dashboard`, name it `CloudTrail-Dashboard` and click `Create dashboard`. You will see a screen such as below where you can choose the type of widget you want. 
 
 ![dashboard1](/images/dashboard/dashboard-1.PNG?classes=shadow)
 
-Select `Line` graph and click `Next`. This will take you to a screen where you can create a widget based off of `Metrics` or `Logs`. For now, we will use Metrics. Once you click `Configure`, it will take you a screen showing all Namespaces under which Metrics are being collected. If you see `CloudTrail` namespace.
+Select `Line` graph and click `Next`. This will take you to a screen where you can create a widget based off of `Metrics` or `Logs`. For now, we will use Metrics. Once you click `Configure`, it will take you a screen showing all Namespaces under which Metrics are being collected.
 
 For the sake of simplicity, I'm going to assume you chose `CloudTrail` for the rest of the instructions. If you did not, just make small adjustments to the instructions yourself as it is pretty easy to follow either way.
 
@@ -26,11 +26,11 @@ You will be able to adjust the size of the widget simply by dragging the bottom 
 Learn about Service Quota limits on widgets and metric limits per widget/dashboard [here](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_limits.html).
 {{% /notice%}}
 
-You can also add CloudWatch Logs Insights results as a widget as well. Click on `Add widget` select `Query results`, which will take you to CloudWatch Logs Insights screen.
+You can also add CloudWatch Logs Insights results as a widget as well. Click on `Add widget`, `Line`, then `Query results`, which will take you to CloudWatch Logs Insights screen. 
 
 ![dashboard4](/images/dashboard/dashboard-4.PNG?classes=shadow)
 
-Paste this query below in the query textbox and click on `Run query`.
+Select the CloudTrail log group, paste this query below in the query textbox, and click on `Run query`.
 
 ```
 fields @timestamp, @message
@@ -46,6 +46,8 @@ This will add a new widget to the dashboard as shown below.
 
 ![AddWidget3](/images/dashboard/dashboard-6.PNG?classes=shadow)
 
+If you click on the `Save dashboard` button, it will save the current state of your dashboard. 
+
 
 ### Working on CloudWatch Dashboards using AWS CLI
 
@@ -57,12 +59,14 @@ Take a look at the available commands here - https://docs.aws.amazon.com/cli/lat
 The following command gets the dashboard in json format back to you.
 
 ```
-aws cloudwatch get-dashboard --dashboard-name observability-dashboard
+aws cloudwatch get-dashboard --dashboard-name CloudTrail-Dashboard
 ```
+
+If the above command does not return anything, please confirm that you saved the dashboard which you created.
 
 #### Create a new dashboard
 
-Take the following json string below and create a file on the local directory and name it `dashboard.json`. Make sure you replace `<YOUR_AWS_REGION_HERE>` placeholder with the appropriate AWS Region.
+Take the following json string below and create a file on the local directory and name it `dashboard.json`. Make sure you replace `US-EAST-1` with the appropriate AWS Region if it is different. 
 
 ```json
 {"widgets":[{"type":"metric","x":0,"y":0,"width":12,"height":6,"properties":{"view":"timeSeries","stacked":false,"metrics":[["CloudTrail","Access-Denied"]],"region":"US-EAST-1"}}]}
@@ -74,7 +78,7 @@ To create the file, within cloudshell, you can enter the below command
 vi dashboard.json
 ```
 
-Copy and paste the above json. Then press the `Esc` key, type in `:wq` and press the `Enter` key.
+Copy and paste the above json. If for some reason it did not copy the full json press `Insert` on your keyboard to delete the pasted entry and try again. Then press the `Esc` key, type in `:wq` and press the `Enter` key.
 
 Now, execute the following command which will create a new CloudWatch Dashboard 
 
