@@ -22,5 +22,4 @@ hidden = true
 ## CloudTrail Logs contributors
 - [Tiberiu Oprisiu](https://www.linkedin.com/in/toprisiu/)
 
-We're still looking for more help, reach out (AWS employees only) directly at [awstiber@](https://amazon.enterprise.slack.com/user/@W01ABLLLZ28) to contribute.
 
