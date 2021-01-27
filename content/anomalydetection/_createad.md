@@ -116,6 +116,6 @@ Executing this command should produce a result similar to the one below
 To edit the model, click on `Edit model`, which will take you to the edit screen. Here, you can edit the model to exclude a specific time period from the model calculation. 
 For example, if you have a deployment coming up and you expect the metrics during that time to affect the AD model, just add that duration to the excluded period, which will make AD ignore metrics during that timeframe.
 
-![AD5](/images/ad/ad5.png?classes=shadow)
+![AD5](/images/ad/AD-5.PNG?classes=shadow)
 
 To delete a model, simply click on `Delete model`
