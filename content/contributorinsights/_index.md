@@ -12,3 +12,5 @@ Contributor Insights helps you understand who or what is impacting your system a
 
 
 {{% button href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContributorInsights.html" icon="fab fa-leanpub" icon="fab fa-leanpub" icon-position="right"  %}}Learn more about this topic...{{% /button %}}
+
+The following module was developed from the [Analyzing AWS CloudTrail in Amazon CloudWatch](https://aws.amazon.com/blogs/mt/analyzing-cloudtrail-in-cloudwatch/) blog post. All credit should go to its authors!
